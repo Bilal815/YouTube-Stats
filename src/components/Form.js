@@ -19,7 +19,7 @@ class Form extends Component {
         <h3 className="text-4xl text-center my-16">Video Stats</h3>
         <form className="w-full max-w-xl mx-auto" onSubmit={this.handleSubmit}>
           <div className="flex items-center border-b border-b-2 border-teal-500 py-2">
-            <input className="appearance-none bg-transparent border-name w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Jane Doe" aria-label="Full name" value={this.state.term} onChange={this.handleChange} />
+            <input className="appearance-none bg-transparent border-name w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter Video ID" aria-label="Full name" value={this.state.term} onChange={this.handleChange} />
           </div>
         </form>
       </div>

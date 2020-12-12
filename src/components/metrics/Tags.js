@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Tags(props) {
-  var tags = props.tags.map((tag, li)=>{
+  var tags = props.tags.map((tag, i)=>{
     return <li>{tag}</li>
   })
   return(
